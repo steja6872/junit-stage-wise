@@ -38,7 +38,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Run Only AppTest2
-        run: mvn -Dtest=AppTest2 test
+        run: mvn test
 
   test3:
     name: Run Test3
@@ -55,4 +55,4 @@ jobs:
           distribution: 'temurin'
 
       - name: Run Only AppTest3
-        run: mvn -Dtest=AppTest3 test
+        run: mvn test
