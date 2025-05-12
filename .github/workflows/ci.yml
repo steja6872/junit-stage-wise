@@ -21,7 +21,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Run Only AppTest1
-        run: mvn -Dtest=AppTest1 test
+        run: mvn -Dtest=*AppTest1
 
   test2:
     name: Run Test2
